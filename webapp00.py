@@ -10,4 +10,4 @@ assunto = st.text_input("Assunto: ")
 mensagem = st.text_input("Messagem: ")
 arquivos = st.file_uploader('Uploader de Arquivo')
 
-botao = st.link_button("Enviar", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe0_2DQ533BSUEuWf9haVK7w6oUkMei_kFphG-MKGwvA9_bzQ/formResponse")
+botao = st.form_submit_button("Enviar", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe0_2DQ533BSUEuWf9haVK7w6oUkMei_kFphG-MKGwvA9_bzQ/formResponse")
