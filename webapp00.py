@@ -8,9 +8,7 @@ email = st.text_input("Digite seu e-mail:")
 prioridade = st.selectbox("Prioridade: ",("Baixa", "Medio", "Alta", "*Critico*"))
 assunto = st.text_input("Assunto: ")
 mensagem = st.text_input("Messagem: ")
+arquivos = st.file_uploader('Uploader de Arquivo')
 
-linhas = arquivo.readlines()
-for linha in linhas:
-    print(linha)
 #problema = st.selectbox("Qual o problema apresentado?",("Sem Internet", "Alteração de Senha", "Outros"))
 botao = st.button("Enviar")
