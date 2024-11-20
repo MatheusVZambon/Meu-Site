@@ -9,7 +9,6 @@ prioridade = st.selectbox("Prioridade: ",("Baixa", "Medio", "Alta", "*Critico*")
 assunto = st.text_input("Assunto: ")
 mensagem = st.text_input("Messagem: ")
 
-msg.add_attachment(file_data, maintype='application', subtype='octet-stream', filename=file_name))
 linhas = arquivo.readlines()
 for linha in linhas:
     print(linha)
