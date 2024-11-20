@@ -11,4 +11,4 @@ mensagem = st.text_input("Messagem: ")
 arquivos = st.file_uploader('Uploader de Arquivo')
 
 #problema = st.selectbox("Qual o problema apresentado?",("Sem Internet", "Alteração de Senha", "Outros"))
-botao = st.button("Enviar")
+botao = st.center.button("Enviar")
