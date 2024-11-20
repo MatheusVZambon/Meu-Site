@@ -20,3 +20,9 @@ st.write("Como já deve ter percebido, o método st.write() é usado para escrit
 
 values = st.slider("Select a range of values", 0.0, 100.0, (5.0, 15.0))
 st.write("Values:", values)
+
+form = st.form("formHD")
+nome = st.text_input("Digite seu nome:")
+problema = st.selectbox("Qual o problema apresentado?",("Sem conexão", "Não liga"))
+equipamento = st.selectbox("Qual o equipamento com defeito?",("Mouse", "Computador","Monitor","Teclado","Impressora"))
+botao = st.button("Enviar")
