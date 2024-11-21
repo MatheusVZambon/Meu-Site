@@ -1,6 +1,9 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 
+pg = st.navigation([st.Page("page_1.py"), st.Page("page_2.py")])
+pg.run()
+
 form = st.form("formHD")
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
