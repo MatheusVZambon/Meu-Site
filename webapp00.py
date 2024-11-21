@@ -1,12 +1,11 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 
-your-repository/
-├── page_1.py
-├── page_2.py
-└── streamlit_app.py
+create_page = st.Page("create.py", title="Create entry", icon=":material/add_circle:")
+delete_page = st.Page("delete.py", title="Delete entry", icon=":material/delete:")
 
-pg = st.navigation([st.Page("page_1.py"), st.Page("page_2.py")])
+pg = st.navigation([create_page, delete_page])
+st.set_page_config(page_title="Data manager", page_icon=":material/edit:")
 pg.run()
 
 form = st.form("formHD")
