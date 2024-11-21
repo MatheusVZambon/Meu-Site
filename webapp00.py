@@ -1,12 +1,7 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 
-your-repository/
-page_1.py
-page_2.py
-streamlit_app.py
-
-pg = st.navigation([st.Page("page_1.py"), st.Page("page_2.py")])
+pg = st.navigation([st.Page("webapp00.py")])
 pg.run()
 
 form = st.form("formHD")
