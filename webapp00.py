@@ -6,6 +6,6 @@ senha = st.text_input("Senha: ")
 
 botao = st.button("Logar")
 
-pg = st.Page('page1.py')
+pg = st.Page("page1.py")
 pg.run()
 
