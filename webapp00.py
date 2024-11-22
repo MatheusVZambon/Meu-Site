@@ -5,7 +5,7 @@ import streamlit as st
 #pg.run()
 
 st.sidebar.title('Login')
-Page_client = st.navigation
+Page_client = st.selectbox('Login',['Quero Ir EMBORA'])
 
 form = st.form("formHD")
 ID = st.text_input("Digite seu ID:")
