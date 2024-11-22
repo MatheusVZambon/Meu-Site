@@ -1,8 +1,8 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 
-#pg = st.navigation([st.Page("page1.py")])
-#pg.run()
+pg = st.navigation([st.Page("page1.py")])
+pg.run()
 
 st.sidebar.title('Login')
 Page_client = st.sidebar.selectbox('Login', [''])
