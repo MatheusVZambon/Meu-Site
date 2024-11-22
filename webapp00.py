@@ -7,7 +7,6 @@ import streamlit as st
 st.sidebar.title('Login')
 Page_client = st.sidebar.selectbox('Login', ['conta'])
 
-Page_
 form = st.form("formHD")
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
