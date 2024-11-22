@@ -1,4 +1,3 @@
-# MEU PRIMEIRO WEB APP
 import streamlit as st
 
 form = st.form("formHD")
