@@ -1,9 +1,5 @@
 import streamlit as st
   
-  pg = st.navigation([st.Page("page1.py")])
-  pg.run()
-
- form = st.form("formHD")
  ID = st.text_input("Digite seu ID:")
  nome = st.text_input("Digite seu nome:")
  email = st.text_input("Digite seu e-mail:")
