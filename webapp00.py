@@ -4,8 +4,6 @@ import streamlit as st
 pg = st.navigation([st.Page("page1.py")])
 pg.run()
 
-st.sidebar.title('Login')
-Page_client = st.sidebar.selectbox('Login', [''])
 
 form = st.form("formHD")
 ID = st.text_input("Digite seu ID:")
