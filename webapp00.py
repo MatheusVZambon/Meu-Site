@@ -9,4 +9,4 @@ botao = st.button("Enviar")
 
 if usuario == 'admin' and senha == 'admin':
   StreamlitPage("page1.py")
-  StreamlitPage()
+  StreamlitPage.run()
