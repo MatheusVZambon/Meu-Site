@@ -8,5 +8,5 @@ senha = st.text_input("Senha: ")
 botao = st.button("Enviar")
 
 if usuario == 'admin' and senha == 'admin':
-  StreamlitPage("page1.py")
-  StreamlitPage.run()
+  pg = StreamlitPage("page1.py")
+  pg.run()
