@@ -3,7 +3,7 @@ import streamlit as st
 def page_2():
     st.title("Page 1")
 
-pg = st.navigation([st.Page("webapp00.py")])
+pg = st.navigation([st.Page("page1.py")])
 pg.run()
 
 form = st.form("formHD")
