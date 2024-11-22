@@ -1,7 +1,5 @@
 import streamlit as st
 
-  pg = st.navigation([st.Page("webapp00.py")])
-  pg.run()
  ID = st.text_input("Digite seu ID:")
  nome = st.text_input("Digite seu nome:")
  email = st.text_input("Digite seu e-mail:")
