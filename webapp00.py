@@ -8,6 +8,6 @@ senha = st.text_input("Senha: ")
 botao = st.button("Enviar")
 
 if usuario == 'admin' and senha == 'admin':
-      st.Page("page1.py", title="First page", icon="🔥"),
+     pg = st.Page("page1.py", title="First page", icon="🔥"),
     
     pg.run()
