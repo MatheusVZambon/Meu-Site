@@ -6,6 +6,6 @@ senha = st.text_input("Senha: ")
 
 botao = st.button("Logar")
 
-if usuario == 'admin' and senha == 'admin'
+if usuario == 'admin' and senha == 'admin':
   pg = st.navigation([st.Page("page1.py")])
   pg.run()
