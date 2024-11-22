@@ -11,7 +11,7 @@ if usuario == 'admin' and senha == 'admin':
   pg = st.Page('page1.py')
   pg.run()
 
-   ID = st.text_input("Digite seu ID:")
+ ID = st.text_input("Digite seu ID:")
  nome = st.text_input("Digite seu nome:")
  email = st.text_input("Digite seu e-mail:")
  prioridade = st.selectbox("Prioridade: ",("Baixa", "Medio", "Alta", "*Critico*"))
