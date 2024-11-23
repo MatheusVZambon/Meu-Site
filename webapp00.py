@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 
 col1, col2 = st.columns([3, 1])
 data = np.random.randn(10, 1)
