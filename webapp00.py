@@ -11,9 +11,6 @@ col2.write(data)
 
 
 
-col1, col2, col3 = st.columns(3)
-
-with col1:
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
 email = st.text_input("Digite seu e-mail:")
@@ -22,16 +19,6 @@ assunto = st.text_input("Assunto: ")
 mensagem = st.text_input("Messagem: ")
 
 botao = st.link_button("Enviar", "https://docs.google.com/forms/d/e/1FAIpQLSe0_2DQ533BSUEuWf9haVK7w6oUkMei_kFphG-MKGwvA9_bzQ/formResponse?&submit=Submit?usp=pp_url&entry.69514635="+ID+"&entry.1100048191="+nome+"&entry.8340763="+email+"&entry.398253139="+prioridade+"&entry.618138322="+assunto+"&entry.1550799906="+mensagem+"")
-
-
-with col2:
-    st.header("A dog")
-    st.image("https://static.streamlit.io/examples/dog.jpg")
-
-with col3:
-    st.header("An owl")
-    st.image("https://static.streamlit.io/examples/owl.jpg")
-  
 
 
 # This code example demonstrates how to read colored QR code with color background in Python.
