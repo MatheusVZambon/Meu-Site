@@ -1,7 +1,8 @@
 import streamlit as st
 
 left, middle, right = st.columns(3, vertical_alignment=vertical_alignment)
-left.form(ID = st.text_input("Digite seu ID:")
+left.text_input(
+ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
 email = st.text_input("Digite seu e-mail:")
 prioridade = st.selectbox("Prioridade: ",("Baixa", "Medio", "Alta", "*Critico*"))
