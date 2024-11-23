@@ -13,3 +13,19 @@ botao = st.link_button("Enviar", "https://docs.google.com/forms/d/e/1FAIpQLSe0_2
 
 middle.image("https://static.streamlit.io/examples/dog.jpg")
 
+# This code example demonstrates how to read colored QR code with color background in Python.
+#import aspose.barcode as barcode
+
+# Load QR code image
+#reader = barcode.barcoderecognition.BarCodeReader("C:\\Files\\Sample_qr.jpg")
+
+# Specify quality settings to complex background
+#reader.quality_settings.allow_complex_background = True    
+
+# Read QR codes
+#recognized_results = reader.read_bar_codes()
+
+# Show results
+#for x in recognized_results:
+    print("Code Text: " + x.code_text)
+    print("Type: " + x.code_type_name)
