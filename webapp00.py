@@ -3,7 +3,7 @@ import streamlit as st
 #import numpy as np
 import aspose.barcode as barcode
 
-reader = barcode.barcoderecognition.BarCodeReader("C:\Files\Sample_qr.jpg")
+reader = barcode.barcoderecognition.BarCodeReader("C:\Users\Administrador\Downloads\Sample_QR")
 reader.quality_settings.allow_complex_background = True  
 recognized_results = reader.read_bar_codes()
 for x in recognized_results:
