@@ -1,6 +1,6 @@
 import streamlit as st
 
-middle = st.columns(3, vertical_alignment=vertical_alignment)
+left, middle, right = st.columns(3, vertical_alignment=vertical_alignment)
   
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
