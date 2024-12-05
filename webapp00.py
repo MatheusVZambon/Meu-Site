@@ -9,9 +9,15 @@ custom_html = """
 </div>
 <style>
     .banner {
-        width: 160%;
         height: 200px;
-        overflow: auto;
+        position: absolute; top: 1900px; left: -10px; bottom: 0px font-size: x-small;
+        width: 150%;
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+        position: absolute;
+        top: 2000px;
+        right: 0px;
+        bottom: 10px;
     }
     .banner img {
         width: 100%;
