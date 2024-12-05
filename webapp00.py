@@ -8,9 +8,14 @@ def vote(item):
         st.session_state.vote = {"item": item, "reason": reason}
         st.rerun()
 
+ID = st.text_input("Digite seu ID:")
+nome = st.text_input("Digite seu Nome:")
+Senha = st.text_input("Digite sua Senha:")
+
+
 if "vote" not in st.session_state:
-    if nome == admin & senha == admin
-        if st.button("Login"): 
+    if st.button("Login"): 
+        if nome == 'admin' & senha == 'admin' 
         
 else:
     f"You voted for {st.session_state.vote['item']} because {st.session_state.vote['reason']}"
