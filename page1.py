@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Page 2")
 
-def login():
+def page1():
   st.title('Login')
 
 ID = st.text_input("Digite seu ID:")
