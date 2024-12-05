@@ -1,10 +1,5 @@
 import streamlit as st
 
-st.title("Page 2")
-
-def page1():
-  st.title('Login')
-
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
 email = st.text_input("Digite seu e-mail:")
