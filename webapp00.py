@@ -11,6 +11,17 @@ custom_html = """
         <img src="https://assets.folhavitoria.com.br/images/a0322d70-1f5c-11ef-9ec9-9f1d3c6a39fe--minified.jpg" height="300" width="1350"/> 
     </div>
 </div>
+div#rodape{
+    height: 200px;
+    position: absolute; top: 1900px; left: -10px; bottom: 0px font-size: x-small;
+    width: 150%;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    top: 2000px;
+    right: 0px;
+    bottom: 10px;
+}
 
 <div class="banner">
     <img src="https://assets.folhavitoria.com.br/images/a0322d70-1f5c-11ef-9ec9-9f1d3c6a39fe--minified.jpg" alt="Banner Image">
