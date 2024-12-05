@@ -2,14 +2,36 @@ import streamlit as st
 
 st.sidebar.title('Menu')
 
-def Login():
+def introducao():
     st.title("Introdução")
     st.write("Bem-vindo ao nosso aplicativo multipágina!")
 
-def Chamados():
+def graficos():
     st.title("Gráficos")
     st.write("Aqui você pode ver alguns gráficos.")
 
+def mapas():
+    st.title("Mapas")
+    st.write("Aqui você pode ver alguns mapas.")
+
+def tabelas():
+    st.title("Tabelas de Dados")
+    st.write("Aqui você pode ver algumas tabelas de dados.")
+
+# Dicionário de páginas
+paginas = {
+    "Introdução": introducao,
+    "Gráficos": graficos,
+    "Mapas": mapas,
+    "Tabelas de Dados": tabelas
+}
+
+# Menu de navegação
+st.sidebar.title("Navegação")
+pagina_selecionada = st.sidebar.selectbox("Selecione uma página", paginas.keys())
+
+# Exibir a página selecionada
+paginas[pagina_selecionada]()
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
 email = st.text_input("Digite seu e-mail:")
