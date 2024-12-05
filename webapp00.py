@@ -9,12 +9,12 @@ custom_html = """
 </div>
 <style>
     .banner {
-        width: 500%;
-        height: 500px;
-        overflow: hidden;
+        width: 160%;
+        height: 200px;
+        overflow: visible;
     }
     .banner img {
-        width: 1000%;
+        width: 100%;
         object-fit: cover;
     }
 </style>
