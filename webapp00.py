@@ -1,7 +1,7 @@
 import streamlit as st
 import urllib.parse
 
-st.image("https://meialua.net/wp-content/uploads/2024/06/tectoy.png", use_container_width=True)
+st.image("https://meialua.net/wp-content/uploads/2024/06/tectoy.png", use_container_width=False)
 # Função de login
 def login_page():
     ID = st.text_input("Digite seu ID:")
