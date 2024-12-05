@@ -2,7 +2,7 @@ import streamlit as st
 
 import streamlit as st
 
-left, middle, right = st.columns(3, vertical_alignment="bottom")
+left, middle = st.columns(2, vertical_alignment="bottom")
 
 
 ID = left.text_input("Digite seu ID:")
