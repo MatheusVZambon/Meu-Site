@@ -1,7 +1,7 @@
 import streamlit as st
 import urllib.parse
 
-st.set_page_config(layout="centered")
+st.set_page_config(layout="wide")
 # Custom HTML/CSS for the banner
 custom_html = """
 <div class="banner">
