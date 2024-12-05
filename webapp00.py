@@ -1,6 +1,6 @@
 import streamlit as st
 
-left, middle, right = st.columns(3, vertical_alignment="bottom")
+left = st.columns(1)
 
 left.text_input("Write something")
 
