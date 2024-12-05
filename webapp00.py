@@ -4,30 +4,10 @@ import urllib.parse
 # Definindo a configuração da página para layout "wide"
 st.set_page_config(layout="wide")
 
-# URL da imagem de fundo
-image_url = "https://meialua.net/wp-content/uploads/2024/06/tectoy.png"
-
-# Custom HTML/CSS para a imagem de fundo
-custom_html = f"""
-    <style>
-        body {{
-            background-image: url('{image_url}');
-            background-size: 100% 150px;
-
-
-
-
-        }}
-        .stButton, .stTextInput, .stCheckbox, .stRadio, .stSelectbox, .stSlider {{
-            background-color: rgba(0, 0, 0, 0.5);  /* Fundo semitransparente para widgets */
-            border-radius: 5px;
-            color: white;  /* Cor do texto dentro dos widgets */
-        }}
-    </style>
-"""
-
-# Exibe o HTML customizado
-st.components.v1.html(custom_html)
+# Adicionando HTML estilizado para cabeçalho
+st.html(
+  "<div><div style='background-color:white; margin=0; padding: 20px; height: 150px; text-align:center;'><div><img src='https://brasil.campus-party.org/wp-content/uploads/2023/08/Logo_Tectoy.png' style='max-height:120px; padding: 10px;'></div></div><div style='background-color: yellow; text-align:center;height:70px;'><h2 style='font-size: 28px; font-weight: bold; color:black;'>Abertura de Chamado</h2></div></div>"
+)
 
 # Função de login
 def login_page():
