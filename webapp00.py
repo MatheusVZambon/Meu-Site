@@ -3,7 +3,6 @@ import streamlit as st
 left, middle, right = st.columns(3, vertical_alignment="bottom")
 
 left.text_input("Write something")
-middle.button("Click me", use_container_width=True)
 
 left.ID = st.text_input("Digite seu ID:")
 left.nome = st.text_input("Digite seu nome:")
