@@ -20,6 +20,7 @@ custom_html = """
         object-fit: cover;
         text-align: center;
         vertical-align: middle;
+        background-size: 710px 170px
     }
 </style>
 """
