@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.st-emotion-cache-13ln4jf{
+  max-width: 80vw;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.st-emotion-cache-5vl4eb:nth-child(n+3){
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+label[class^='st-emotion-cache'] p, label[class*=' st-emotion-cache'] p{
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #D7BE00;
+}
+
+.stApp{
+  background-color: #FFF;
+}
+
+input {
+  width: 70vw;
+}
+
+#text_input_1,#text_input_2,#text_input_3,#text_input_4,#text_input_5, .st-bo{
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.st-emotion-cache-1mcbg9u{
+  border: 2px solid #D7BE00;
+}
+
+.st-emotion-cache-1mcbg9u:hover{
+  background-color: #000;
+  border: 2px solid #D7BE00;
+}
+
+.st-emotion-cache-1mcbg9u p{
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #D7BE00;
+}
