@@ -15,7 +15,7 @@ Senha = st.text_input("Digite sua Senha:")
 
 if "vote" not in st.session_state:
     if st.button("Login"): 
-        if nome == 'admin' and senha == 'admin' 
+        if nome == 'admin' and senha == 'admin':
         vote(login)
 else:
     f"You voted for {st.session_state.vote['item']} because {st.session_state.vote['reason']}"
