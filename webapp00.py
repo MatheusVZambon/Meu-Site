@@ -1,4 +1,5 @@
 import streamlit as st
+st.siderbar.title('Menu')
 
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
