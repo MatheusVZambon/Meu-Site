@@ -20,7 +20,7 @@ def tabelas():
 
 # Dicionário de páginas
 paginas = {
-    "Login": login
+    "Login": page1
 }
 
 # Menu de navegação
