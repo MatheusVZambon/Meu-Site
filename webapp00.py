@@ -1,14 +1,26 @@
 import streamlit as st
+import streamlit_authenticator as stauth
+import yaml
+from yaml.loader import SafeLoader
 
-import streamlit as st
 
-left, middle = st.columns(2, vertical_alignment="bottom")
+with open('config.yaml') as file:
+    config = yaml.load(file, Loader=SafeLoader)
 
+authenticator = stauth.Authenticate(
+    config['credentials'],
+    config['cookie']['name'],
+    config['cookie']['key'],
+    config['cookie']['expiry_days']
+)
 
-ID = left.text_input("Digite seu ID:")
-nome = left.text_input("Digite seu Nome:")
-senha = left.text_input("Digite seu Senha:")
+authenticator.login()
 
-botao = left.button("Enviar")
-
-st.page_link("page1.py", label="Page 1", icon="1️⃣")
+if st.session_state["authentication_status"]:
+    authenticator.logout()
+    st.write(f'Bem Vindo *{st.session_state["name"]}*')
+    st.title('Página de Sistema')
+elif st.session_state["authentication_status"] is False:
+    st.error('Usuário/Senha is inválido')
+elif st.session_state["authentication_status"] is None:
+    st.warning('Por Favor, utilize seu usuário e senha!')
