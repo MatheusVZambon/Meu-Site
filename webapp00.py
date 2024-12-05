@@ -12,15 +12,11 @@ custom_html = """
        width: 100%;
        height: 200px;
        overflow: hidden;
-       text-align: center;
-       line-height: 200px 
        background-size: 710px 170px
     }
     .banner img {
         width: 100%;
         object-fit: cover;
-        text-align: center;
-        vertical-align: middle;
         background-size: 710px 170px
     }
 </style>
