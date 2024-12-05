@@ -15,6 +15,7 @@ custom_html = """
     }
     .banner img {
         width: 10%;
+        height: 10%;
         object-fit: cover;
     }
 </style>
