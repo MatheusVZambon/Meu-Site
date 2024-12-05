@@ -1,9 +1,5 @@
 import streamlit as st
 
-left = st.columns(1)
-
-left.text_input("Write something")
-
 left.ID = st.text_input("Digite seu ID:")
 left.nome = st.text_input("Digite seu nome:")
 left.email = st.text_input("Digite seu e-mail:")
