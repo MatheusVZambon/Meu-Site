@@ -1,5 +1,12 @@
 import streamlit as st
 
+with open("style.css") as f:
+  st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+st.html(
+  "<div><div style='background-color:white; margin=0; padding: 20px; height: 150px; text-align:center;'><div><img src='https://brasil.campus-party.org/wp-content/uploads/2023/08/Logo_Tectoy.png' style='max-height:120px; padding: 10px;'></div></div><div style='background-color: yellow; text-align:center;height:70px;'><h2 style='font-size: 28px; font-weight: bold; color:black;'>Abertura de Chamado</h2></div></div>"
+)
+
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
 email = st.text_input("Digite seu e-mail:")
