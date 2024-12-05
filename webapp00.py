@@ -1,26 +1,18 @@
 import streamlit as st
-import streamlit_authenticator as stauth
-import yaml
-from yaml.loader import SafeLoader
 
+@st.dialog("Cast your vote")
+def vote(item):
+    st.write(f"Why is {item} your favorite?")
+    reason = st.text_input("Because...")
+    if st.button("Submit"):
+        st.session_state.vote = {"item": item, "reason": reason}
+        st.rerun()
 
-"with open('config.yaml') as file:"
-"   config = yaml.load(file, Loader=SafeLoader)"
-
-authenticator = stauth.Authenticate(
-    config['credentials'],
-    config['cookie']['name'],
-    config['cookie']['key'],
-    config['cookie']['expiry_days']
-)
-
-authenticator.login()
-
-if st.session_state["authentication_status"]:
-    authenticator.logout()
-    st.write(f'Bem Vindo *{st.session_state["name"]}*')
-    st.title('Página de Sistema')
-elif st.session_state["authentication_status"] is False:
-    st.error('Usuário/Senha is inválido')
-elif st.session_state["authentication_status"] is None:
-    st.warning('Por Favor, utilize seu usuário e senha!')
+if "vote" not in st.session_state:
+    st.write("Vote for your favorite")
+    if st.button("A"):
+        vote("A")
+    if st.button("B"):
+        vote("B")
+else:
+    f"You voted for {st.session_state.vote['item']} because {st.session_state.vote['reason']}"
