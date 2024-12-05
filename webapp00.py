@@ -11,7 +11,7 @@ senha = left.text_input("Digite seu Senha:")
 
 botao = left.button("Enviar")
 
-st.page1.py(
+st.page1(
     page_title="Hello",
     page_icon="👋",
 )
