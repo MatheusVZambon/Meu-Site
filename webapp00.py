@@ -14,8 +14,7 @@ custom_html = """
         overflow: hidden;
     }
     .banner img {
-        width: 100;
-        height: 10%;
+        width: 100%;
         object-fit: cover;
     }
 </style>
