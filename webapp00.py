@@ -10,14 +10,16 @@ custom_html = """
 <style>
     .banner {
        width: 100%;
-        height: 260px;
-        overflow: hidden;
-        vertical-align: middle;
+       height: 200px;
+       overflow: hidden;
+       text-align: center;
+       line-height: 200px 
     }
     .banner img {
         width: 100%;
         object-fit: cover;
         text-align: center;
+        vertical-align: middle;
     }
 </style>
 """
