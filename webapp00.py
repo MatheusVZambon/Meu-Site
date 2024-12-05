@@ -5,7 +5,7 @@ import urllib.parse
 st.set_page_config(layout="wide")
 
 # URL da imagem de fundo
-image_url = "https://www.sega-brasil.com.br/Tectoy/images/e/ec/MDImagemSonic_1.gif"
+image_url = "https://meialua.net/wp-content/uploads/2024/06/tectoy.png"
 
 # Custom HTML/CSS para a imagem de fundo
 custom_html = f"""
