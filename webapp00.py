@@ -23,10 +23,6 @@ custom_html = """
 # Display the custom HTML
 st.components.v1.html(custom_html)
 
-# Main content
-st.title("Main Content")
-st.write("Welcome to my Streamlit app!")
-st.write("This is the main content area.")
 
 # Função de login
 def login_page():
