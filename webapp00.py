@@ -4,41 +4,13 @@ import urllib.parse
 st.set_page_config(layout="wide")
 # Custom HTML/CSS for the banner
 custom_html = """
-
-<div id="rodape" align="left">
-    <div align="left">
-        <h1/>
-        <img src="https://assets.folhavitoria.com.br/images/a0322d70-1f5c-11ef-9ec9-9f1d3c6a39fe--minified.jpg" height="300" width="1350"/> 
-    </div>
-</div>
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: plum;
-}
-#rodape {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-#rodape img {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    object-fit: cover; /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
-}
 <div class="banner">
     <img src="https://assets.folhavitoria.com.br/images/a0322d70-1f5c-11ef-9ec9-9f1d3c6a39fe--minified.jpg" alt="Banner Image">
 </div>
 <style>
     .banner {
-       width: 160%;
-        height: 200px;
+       width: 300;
+        height: 300;
         overflow: hidden;
     }
     .banner img {
