@@ -9,8 +9,8 @@ custom_html = """
 </div>
 <style>
     .banner {
-       width: 30;
-        height: 30;
+       width: 3000;
+        height: 3000;
         overflow: hidden;
     }
     .banner img {
