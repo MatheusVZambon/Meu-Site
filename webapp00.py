@@ -2,7 +2,7 @@ import streamlit as st
 
 st.sidebar.title('Menu')
 
-def login():
+def page1.py():
     st.title("Login")
     st.write("Bem-vindo ao nosso aplicativo multipágina!")
 
