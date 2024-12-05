@@ -5,7 +5,7 @@ def vote(item):
     ID = st.text_input("Digite seu ID:")
     nome = st.text_input("Digite seu Nome:")
     senha = st.text_input("Digite sua Senha:")
-        if nome == 'admin' and senha 'admin':
+        if nome == 'admin' and senha == 'admin':
             st.page("page_1.py")
 
 if "vote" not in st.session_state:
