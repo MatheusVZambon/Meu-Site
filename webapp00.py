@@ -9,10 +9,8 @@ def vote(item):
         st.rerun()
 
 if "vote" not in st.session_state:
-    st.write("Vote for your favorite")
-    if st.button("A"):
-        vote("A")
-    if st.button("B"):
-        vote("B")
+    if nome == admin & senha == admin
+        if st.button("Login"): 
+        
 else:
     f"You voted for {st.session_state.vote['item']} because {st.session_state.vote['reason']}"
