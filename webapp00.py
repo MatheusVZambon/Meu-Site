@@ -10,8 +10,9 @@ custom_html = """
 <style>
     .banner {
        width: 100%;
-        height: 260;
+        height: 260px;
         overflow: hidden;
+        vertical-align: middle;
     }
     .banner img {
         width: 100%;
