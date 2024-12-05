@@ -11,5 +11,3 @@ def vote(item):
 if "vote" not in st.session_state:
     if st.button("Login"): 
         vote("Login")
-else:
-    f"You voted for {st.session_state.vote['item']} because {st.session_state.vote['reason']}"
