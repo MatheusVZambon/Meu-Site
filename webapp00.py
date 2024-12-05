@@ -2,6 +2,14 @@ import streamlit as st
 
 st.sidebar.title('Menu')
 
+def Login():
+    st.title("Introdução")
+    st.write("Bem-vindo ao nosso aplicativo multipágina!")
+
+def Chamados():
+    st.title("Gráficos")
+    st.write("Aqui você pode ver alguns gráficos.")
+
 ID = st.text_input("Digite seu ID:")
 nome = st.text_input("Digite seu nome:")
 email = st.text_input("Digite seu e-mail:")
