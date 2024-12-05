@@ -9,13 +9,14 @@ custom_html = """
 </div>
 <style>
     .banner {
-       width: 3000;
-        height: 3000;
+       width: 100%;
+        height: 260;
         overflow: hidden;
     }
     .banner img {
         width: 100%;
         object-fit: cover;
+        text-align: center;
     }
 </style>
 """
