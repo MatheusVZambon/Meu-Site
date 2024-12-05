@@ -12,7 +12,7 @@ custom_html = f"""
     <style>
         body {{
             background-image: url('{image_url}');
-            background-size: 1000px 270px;
+            background-size: 10000px 100px;
 
 
 
