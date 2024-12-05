@@ -20,10 +20,7 @@ def tabelas():
 
 # Dicionário de páginas
 paginas = {
-    "Introdução": introducao,
-    "Gráficos": graficos,
-    "Mapas": mapas,
-    "Tabelas de Dados": tabelas
+    "Login": login
 }
 
 # Menu de navegação
