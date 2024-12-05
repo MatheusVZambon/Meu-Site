@@ -26,7 +26,7 @@ def form_page():
 
     # Criando o link para o Google Forms com os dados
     base_url = "https://docs.google.com/forms/d/e/1FAIpQLSe0_2DQ533BSUEuWf9haVK7w6oUkMei_kFphG-MKGwvA9_bzQ/formResponse?"
-        params = {
+    params = {
         "entry.69514635": ID,
         "entry.1100048191": nome,
         "entry.8340763": email,
@@ -48,4 +48,4 @@ def form_page():
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
     login_page()  # Exibe a página de login se o usuário não estiver logado
 else:
-    form_page()  # Exibe o formulário se o usuário estiver logado
+    form_page()  # Exibe o formulário se o usuário estiver logado
