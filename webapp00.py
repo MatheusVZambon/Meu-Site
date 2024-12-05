@@ -14,6 +14,7 @@ custom_html = """
        overflow: hidden;
        text-align: center;
        line-height: 200px 
+       background-size: 710px 170px
     }
     .banner img {
         width: 100%;
