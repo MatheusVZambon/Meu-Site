@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.title('Login')
 st.sidebar.title('Menu')
 
 ID = st.text_input("Digite seu ID:")
