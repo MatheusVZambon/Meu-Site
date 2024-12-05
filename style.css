@@ -50,3 +50,13 @@ input {
   font-weight: 700;
   color: #D7BE00;
 }
+
+st-success{
+  background-color: rgb(67, 253, 126);
+  color: black;
+}
+
+st-error{
+  background-color: rgb(183, 0, 0);
+  color: white;
+}
