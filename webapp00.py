@@ -14,7 +14,7 @@ custom_html = """
         overflow: hidden;
     }
     .banner img {
-        width: 100%;
+        width: 1000%;
         object-fit: cover;
     }
 </style>
@@ -23,7 +23,6 @@ custom_html = """
 # Display the custom HTML
 st.components.v1.html(custom_html)
 
-st.set_page_config(layout="centered")
 # Função de login
 def login_page():
     ID = st.text_input("Digite seu ID:")
