@@ -2,7 +2,7 @@ import streamlit as st
 import urllib.parse
 
 # Definindo a configuração da página para layout "wide"
-st.set_page_config(layout="wide")
+st.set_page_config(layout="auto")
 
 # URL da imagem de fundo
 image_url = "https://meialua.net/wp-content/uploads/2024/06/tectoy.png"
