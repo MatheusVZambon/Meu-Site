@@ -51,12 +51,12 @@ input {
   color: #D7BE00;
 }
 
-.st-cs:has(> div.stAlertContainer){
+.st-cs:has(.stAlertContainer){
   background-color: rgb(67, 253, 126);
   color: black;
 }
 
-.st-cw:has(> div.stAlertContainer){
+.st-cw:has(.stAlertContainer){
   background-color: rgb(183, 0, 0);
   color: white;
 }
